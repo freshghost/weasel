@@ -1,0 +1,7 @@
+package hello
+
+object indexjs {
+  def main(args: Array[String]): Unit = {
+    println("Hello world!")
+  }
+}
