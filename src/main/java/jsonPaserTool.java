@@ -11,8 +11,6 @@ import java.util.Map.Entry;
  * Created by sunxiebin on 2017/4/8.
  */
 public class jsonPaserTool {
-
-
         /*Json trans to Map*/
     static Map<String,Object> paser(String s) throws IOException {
         Map<String,Object> json=(Map<String,Object>) paser(s,Map.class);

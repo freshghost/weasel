@@ -8,6 +8,10 @@ import scala.collection.JavaConverters._
    @Autowired
  val jdbcTemplate:JdbcTemplate=null
   
+  /** query hive database ,use jdbcTemplate
+     @param sql  hive sql sentence
+     @return  the result of query
+  */
    def query(sql:String):String={
  val result=jdbcTemplate.queryForList(sql)
      println(result)
